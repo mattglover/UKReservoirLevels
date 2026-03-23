@@ -6,30 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B2A8DBE12F71741000025D8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8DBD72F71741000025D8B /* AppDelegate.swift */; };
+		B2A8DBE22F71741000025D8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8DBDE2F71741000025D8B /* SceneDelegate.swift */; };
+		B2A8DBE32F71741000025D8B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8DBDF2F71741000025D8B /* MapViewController.swift */; };
+		B2A8DBE42F71741000025D8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A8DBD82F71741000025D8B /* Assets.xcassets */; };
+		B2A8DBE62F71741000025D8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A8DBDB2F71741000025D8B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B2A8DBBE2F7173F400025D8B /* UKReservoirLevels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UKReservoirLevels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A8DBD72F71741000025D8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2A8DBD82F71741000025D8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2A8DBD92F71741000025D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A8DBDA2F71741000025D8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2A8DBDE2F71741000025D8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B2A8DBDF2F71741000025D8B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B2A8DBD02F7173F600025D8B /* Exceptions for "UKReservoirLevels" folder in "UKReservoirLevels" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = B2A8DBBD2F7173F400025D8B /* UKReservoirLevels */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B2A8DBC02F7173F400025D8B /* UKReservoirLevels */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B2A8DBD02F7173F600025D8B /* Exceptions for "UKReservoirLevels" folder in "UKReservoirLevels" target */,
-			);
-			path = UKReservoirLevels;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B2A8DBBB2F7173F400025D8B /* Frameworks */ = {
@@ -45,7 +38,7 @@
 		B2A8DBB52F7173F400025D8B = {
 			isa = PBXGroup;
 			children = (
-				B2A8DBC02F7173F400025D8B /* UKReservoirLevels */,
+				B2A8DBE02F71741000025D8B /* UKReservoirLevels */,
 				B2A8DBBF2F7173F400025D8B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +49,43 @@
 				B2A8DBBE2F7173F400025D8B /* UKReservoirLevels.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B2A8DBE02F71741000025D8B /* UKReservoirLevels */ = {
+			isa = PBXGroup;
+			children = (
+				B2A8DBE92F71741E00025D8B /* AppDelegate */,
+				B2A8DBE82F71741300025D8B /* ViewControllers */,
+				B2A8DBEA2F71742400025D8B /* Resources */,
+			);
+			path = UKReservoirLevels;
+			sourceTree = "<group>";
+		};
+		B2A8DBE82F71741300025D8B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2A8DBDF2F71741000025D8B /* MapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B2A8DBE92F71741E00025D8B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B2A8DBD72F71741000025D8B /* AppDelegate.swift */,
+				B2A8DBDE2F71741000025D8B /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B2A8DBEA2F71742400025D8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2A8DBD82F71741000025D8B /* Assets.xcassets */,
+				B2A8DBD92F71741000025D8B /* Info.plist */,
+				B2A8DBDB2F71741000025D8B /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +102,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B2A8DBC02F7173F400025D8B /* UKReservoirLevels */,
 			);
 			name = UKReservoirLevels;
 			packageProductDependencies = (
@@ -122,6 +149,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A8DBE42F71741000025D8B /* Assets.xcassets in Resources */,
+				B2A8DBE62F71741000025D8B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +161,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A8DBE12F71741000025D8B /* AppDelegate.swift in Sources */,
+				B2A8DBE22F71741000025D8B /* SceneDelegate.swift in Sources */,
+				B2A8DBE32F71741000025D8B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2A8DBDB2F71741000025D8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2A8DBDA2F71741000025D8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B2A8DBD22F7173F600025D8B /* Debug */ = {
@@ -147,12 +190,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 844LLMHN8Q;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UKReservoirLevels/Info.plist;
+				INFOPLIST_FILE = UKReservoirLevels/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Reservoir Levels";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -161,12 +206,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peakridge.UKReservoirLevels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -179,12 +228,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 844LLMHN8Q;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UKReservoirLevels/Info.plist;
+				INFOPLIST_FILE = UKReservoirLevels/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Reservoir Levels";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -193,12 +244,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peakridge.UKReservoirLevels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
